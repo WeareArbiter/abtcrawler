@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'abtcrawler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': DB_NAME,
-        'USER': DB_USER,
-        'PASSWORD': DB_PW,
-        'HOST': IP_ADDRESS,
+        'NAME': 'arbiter',
+        'USER': 'arbiter',
+        'PASSWORD': 'makeitpopwear!',
+        'HOST': '108.61.223.241',
         'PORT': '',
     }
 }
