@@ -1,0 +1,4 @@
+__pychache__/
+migrations/
+env/
+db.sqlite3
